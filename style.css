@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  border-bottom: 0.4px solid #fff2e7;
+}
+
+.navegacao {
+  display: flex;
+  gap: 2rem;
+}
+.link-navegacao {
+  text-decoration: none;
+  color: #fff2e7;
+  font-family: 'Sarala';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.primeira-secao {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div-secao-um {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.div-secao-um h1 {
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 64px;
+  color: #fff2e7;
+}
+.div-secao-um p {
+  font-family: 'Sarala';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #ecd6d4;
+}
+.btn-page {
+  width: 185px;
+  height: 67px;
+  border: none;
+  background: #ecd6c4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Sarala';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #2f2325;
+}
+.btn-page:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+  color: white;
+}
+.segunda-secao {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* nesse caso ele centraliza os elementos para o centro pois o flex-direction stá como colunas*/
+  gap: 1rem;
+}
+.segunda-secao h2 {
+  font-family: 'Righteous';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: #fff2e7;
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+}
+.segunda-secao p {
+  font-family: 'Sarala';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #ecd6c4;
+  margin-bottom: 20px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 0.4px solid #fff2e7;
+}
+.imagem-rodape {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
